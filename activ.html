@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Activity</title>
+    <style>
+        body {
+            background-image: url('img/activbck.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Card Container */
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Space between cards */
+            width: 90%;
+            max-width: 800px;
+        }
+
+        .card {
+            display: flex;
+            align-items: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            gap: 20px; /* Space between image and text */
+        }
+
+        .card img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-content h2 {
+            margin: 0 0 10px 0;
+            font-size: 20px;
+            background-color: yellow;
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .card-content .data {
+            background-color: lightgray;
+            padding: 5px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img src="img/sci.jpg" alt="Item">
+            <div class="card-content">
+                <h2>Science week</h2>
+                <p class="data">17.02 - 21.02</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/qtal.png" alt="Item">
+            <div class="card-content">
+                <h2>Q-Talks with tutors</h2>
+                <p class="data">18.02 - 18.02</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/cleague.png" alt="Item">
+            <div class="card-content">
+                <h2>Sport competition</h2>
+                <p class="data">19.02 - 19.02</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/tuto.png" alt="Item">
+            <div class="card-content">
+                <h2>Tutor's day</h2>
+                <p class="data">12.02 - 11.02</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/qtea.png" alt="Item">
+            <div class="card-content">
+                <h2>Q - tea 9A - 9B</h2>
+                <p class="data">14.02 - 15.02</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/mathh.png" alt="Item">
+            <div class="card-content">
+                <h2>Math - Ict WEEK</h2>
+                <p class="data">03.02 - 08.02</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/mrl.png" alt="Item">
+            <div class="card-content">
+                <h2>MORAL GECE 10B</h2>
+                <p class="data">07.02 - 07.02</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/qtea.png" alt="Item">
+            <div class="card-content">
+                <h2>Q - tea 8A - 8B</h2>
+                <p class="data">04.02 - 05.02</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
